@@ -19,7 +19,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains
 
 # Variables a cambiar
-class easy_twitter:
+class twitter_scraping:
     def __init__(self,correo,contra,driver_path='',chromedriver=''):
         self.correo = correo
         self.contra = contra
