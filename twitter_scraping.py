@@ -187,7 +187,7 @@ class twitter_scraping:
                 pass
         
         try:
-            data1=pd.read_excel("Twitter_scraping.xlsx",index=False)
+            data1=pd.read_excel("Twitter_scraping.xlsx")
             data = [data1,data]
             data = pd.concat(data)
         except:
